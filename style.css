@@ -48,10 +48,31 @@ body {
      border: 1px solid #f5c6cb;
 }
 
+.form form .name-details {
+    display: flex;
+}
+
+.form .name-details .field:first-child{
+    margin-right: 10px;
+}
+
+.form .name-details .field:last-child{
+    margin-left: 10px;
+}
+
 .form form .field{
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+    position: relative;
+}
+
+.form form .field label{
+    margin-bottom: 2px;
+}
+
+.form form .field input {
+    outline: none;
 }
 
 .form form .input input{
@@ -62,3 +83,42 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
 } 
+
+.form form .image input{
+    font-size: 17px;
+}
+
+.form form .button input {
+    cursor: pointer;
+    margin-top: 13px;
+    border: none;
+    font-size: 17px;
+    height: 45px;
+    color: #fff;
+    background: #333;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.form form .field i {
+    position: absolute;
+    right: 15px;
+    color: #ccc;
+    top: 70%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.form .link {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.form .link a {
+    color: #333;
+}
+
+.form .link a:hover {
+    text-decoration: underline;
+}
