@@ -246,3 +246,23 @@ body {
 .users-list a .status-dot.offline{
     color: #ccc;
 }
+
+/* Chat Area css code */
+.chat-area header {
+    display: flex;
+    align-items: center;
+    padding: 18px 30px;
+}
+
+.chat-area header .back-icon{
+    font-size: 18px;
+    color: #333;
+}
+
+.chat-area header img {
+    height: 45px;
+    width: 45px;
+    margin:  0 15px;
+    object-fit: cover;
+    border-radius: 50%;
+}
