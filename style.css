@@ -266,3 +266,8 @@ body {
     object-fit: cover;
     border-radius: 50%;
 }
+
+.chat-area header span {
+    font-size: 17px;
+    font-weight: 500;
+}
