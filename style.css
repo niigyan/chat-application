@@ -271,3 +271,9 @@ body {
     font-size: 17px;
     font-weight: 500;
 }
+
+.chat-box {
+    height: 500px;
+    background: #f7f7f7;
+    padding: 10px 30px; 
+}
