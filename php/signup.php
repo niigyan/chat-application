@@ -6,7 +6,13 @@
  $password = mysqli_real_escape_string($conn,$_POST["password"]);
 
  if (!empty($fname) && !empty($lname) && !empty($email) && !empty($password)) {
-     
+     //let us check user email is valid or not 
+     if (filter_var($email,FILTER_VALIDATE_EMAIL)) {
+         //let check that email already exist in the database or not 
+         $sql = mysqli_query($conn,"SELECT email FROM ")
+     } else {
+         echo "$email  - This is not a valid email";
+     }
  } else {
      echo "All input field are required!";
  }
