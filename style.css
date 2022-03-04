@@ -39,6 +39,7 @@ body {
 }
 
 .form form .error-txt {
+    display: none;
      color: #721c24;
      background: #f8d7da;
      padding: 8px 10px;
@@ -46,6 +47,8 @@ body {
      border-radius: 5px;
      margin-bottom: 10px;
      border: 1px solid #f5c6cb;
+     transition: all 0.3s ease-in;
+
 }
 
 .form form .name-details {
@@ -98,6 +101,7 @@ body {
     background: #333;
     border-radius: 5px;
     font-weight: 700;
+    
 }
 
 .form form .field i {
@@ -197,10 +201,11 @@ body {
     border-radius: 5px 0 0 5px;
     outline: none;
     transition: all 0.3s ease;
+    opacity: 0;
 }
  
 .users .search input.active{
-    opacity: 0;
+    opacity: 1;
     pointer-events: auto;
 }
 
